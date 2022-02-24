@@ -1,7 +1,7 @@
 import os 
 import cv2 
 import numpy as np 
-
+import paddle
 from training_data import get_training_data
 from util import get_image_paths, load_images, stack_images
 from models import Autoencoder, var_to_np
